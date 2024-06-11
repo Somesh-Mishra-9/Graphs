@@ -45,3 +45,21 @@
 6. **Acyclic Graph:**
    - Does not contain any cycles.
    - Directed Acyclic Graph (DAG) is a special type of directed graph with no directed cycles.
+
+
+### DEGREE OF A GRAPH
+
+**Degree:** The degree of a vertex in a graph is a measure of the number of edges incident to (connected to) the vertex. 
+
+**1. Degree in an Undirected Graph**
+  
+- The degree of a vertex is the number of edge connected to it. If a vertex 𝑣 has 𝑘 edges connected to it, then the degree of 𝑣 is 𝑘.
+
+**2. Degree in a Directed Graph**
+
+In a directed graph, where edges have a direction, the degree is split into two parts:
+
+- **In-Degree:** The number of edges coming into a vertex. If a vertex \( v \) has \( k \) incoming edges, then the in-degree of \( v \) is \( k \).
+- **Out-Degree:** The number of edges going out from a vertex. If a vertex \( v \) has \( k \) outgoing edges, then the out-degree of \( v \) is \( k \).
+
+
