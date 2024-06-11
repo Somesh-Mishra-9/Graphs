@@ -5,26 +5,30 @@ using namespace std;
 
 int main(){
 
+int n,m;    // m is the no. of edges and n is the number of nodes.
+cin>>m>>n;
 
 //Matrix Representation of Graph
+int adj[n+1][n+1];
+for(int i=0;i<m;i++){
 
-// int n,m;    // m is the no. of edges and n is the number of nodes.
-// cin>>m>>n;
-// int adj[n+1][m+1];
-// for(int i=0;i<m;i++){
+    int u,v;
+    cin>>u>>v;
+    adj[u][v]=1;
+    adj[v][u]=1;
+}
 
-//     int u,v;
-//     cin>>u>>v;
-//     adj[u][v]=1;
-//     adj[v][u]=1;
-// }
+// List representaion of a graph
 
+vector<int> adjc(n);
 
+for(int i=0;i<m;i++){
+  int x,y;
+  cin>>x>>y;
+  adjc[x]=y;
+  adjc[y]=x;
+}
 
-int node=5;
-vector<int> adjc(node);
+return 0;
 
-  cout<<adjc[3];
-
-    return 0;
 }
