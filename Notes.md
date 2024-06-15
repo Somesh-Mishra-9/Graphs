@@ -63,3 +63,19 @@ In a directed graph, where edges have a direction, the degree is split into two 
 - **Out-Degree:** The number of edges going out from a vertex. If a vertex \( v \) has \( k \) outgoing edges, then the out-degree of \( v \) is \( k \).
 
 
+### REPRESENTATION OF GRAPH
+
+**Matrix Representation**
+
+```cpp
+
+int adj[n+1][n+1];
+for(int i=0;i<m;i++){
+
+    int u,v;
+    cin>>u>>v;
+    adj[u][v]=1;
+    adj[v][u]=1;
+}
+
+```
