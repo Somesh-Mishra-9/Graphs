@@ -79,3 +79,19 @@ for(int i=0;i<m;i++){
 }
 
 ```
+
+**List Representaion**
+
+```cpp
+
+vector<int> adjc(n);
+
+for(int i=0;i<m;i++){
+  int x,y;
+  cin>>x>>y;
+  adjc[x]=y;
+  adjc[y]=x;
+}
+
+
+```
