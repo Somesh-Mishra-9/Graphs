@@ -42,3 +42,7 @@ bool isCycle(int v, vector<int> adj[]){
 
     return false; // No cycle found in any component
 }
+
+int main(){
+    return 0;
+}
